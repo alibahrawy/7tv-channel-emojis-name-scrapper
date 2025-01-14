@@ -21,7 +21,10 @@ Modify the driver.get() URL in the script to target the desired 7TV user page. T
 
 python
 Copy code
+```bash
+   pip install selenium beautifulsoup4 requests webdriver_manager
 driver.get("https://7tv.app/users/<username>")  # Replace <username>
+```
 Run the script:
 Open a terminal or command prompt, navigate to the directory where you saved the script, and execute it:
 
